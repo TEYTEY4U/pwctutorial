@@ -13,20 +13,18 @@
         <br>
    
     <h1><img src="logo.jpg" width="40" height="40"><span> PWC STUDENT WEBSITE </span></h1>
+    <h2>Application Form</h2>
     <form>
         <label>First Name</label><input id="int" type="text" name="firstname"/><br/>
         <label>Second Name</label><input id="int" type="text" name="secondname"/><br/>
         <label>Age</label><input id="int" type="text" name="age"/><br/>
-        <label><b>COURSES</b></label><br/>
-        <label>Full Stack Development</label><input type="checkbox" value="Full Stack"/>
-        <label>Python Programming</label><input type="checkbox" value="Python"/>
-        <label>C# Programming</label><input type="checkbox" value="C#"/>
-        <label>Data Analystic</label><input type="checkbox" value="Dataanalystic"/>
-        <label>Agile</label><input type="checkbox" value="Agile"/>
-        <br/>
+        <label>Gender:</label>
+        <label>Male</label><input type="radio" name="gender"/>
+        <label>Female</label><input type="radio" name="gender"/><br/>
+        <label>Select State: </label>
         <select>
             <option selected>
-                None
+                Other
             </option>
             <option selected>
                 Kaduna state
@@ -44,10 +42,14 @@
                 Kastina State
             </option>
         </select><br/>
-        <label>Gender:</label><br/>
-        <label>Male</label><input type="radio" name="gender"/>
-        <label>Female</label><input type="radio" name="gender"/><br/>
-        <input type="button" value="Submit"/>
+        <label>Courses:</label>
+        <label>Full Stack Development</label><input type="checkbox" value="Full Stack"/>
+        <label>Python Programming</label><input type="checkbox" value="Python"/>
+        <label>C# Programming</label><input type="checkbox" value="C#"/>
+        <label>Data Analystic</label><input type="checkbox" value="Dataanalystic"/>
+        <label>Agile</label><input type="checkbox" value="Agile"/>
+        <br/>
+        <input id="btn" type="button" value="Submit"/>
 
         
 </ul>

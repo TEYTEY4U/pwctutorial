@@ -1,14 +1,22 @@
 body{
     font-size: 24px;
-    background-color:rgb(197, 182, 182);
+    background-color:rgb(183, 123, 123);
+}
+h1{
+    text-align: center;
 }
 a{
     text-decoration:none;
     padding:5px 5px 5px 5px;
     margin:10px 5px 10px 5px;
+    color:rgb(247, 248, 248);
+}
+a:hover{
+    color:rgb(183, 123, 123);
+    background-color:rgba(235, 232, 232, 0.882);
 }
 table img{
-width: 250;
+width: 250px;
 height: 250px;
 }
 table,th,td,tr{
@@ -32,4 +40,21 @@ table,th,td,tr{
 }
 .img p{
     text-align: center;
+}
+#btn{
+    padding: 10px 10px;
+    background-color: aliceblue;
+    margin: 5px 5px;
+    border-style:none;
+    font-size: 18px;
+    font-weight:bold;
+    border-top-right-radius:20px;
+}
+#btn:hover{
+    border-radius:0px 0px;
+    color: rgb(236, 74, 74);
+}
+#map:hover{
+width: 55%;
+height:55%;
 }
