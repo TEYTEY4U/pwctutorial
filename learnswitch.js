@@ -1,20 +1,20 @@
 const studentName = "abu";
-let score = 75;
+let score = 90;
 function get(){
     if(score >= 70){
-        console.log("Excellent");
+        console.log("Distinction");
         }
     else if(score >= 60){
         console.log("Very good");
             }
     else if(score >= 50){
-        console.log("credit");
+        console.log("Credit");
                 }
-    else if(score > 49){
-        console.log("pass");
+    else if(score >= 40){
+        console.log("Pass");
                     }
-    else if(score > 39){
-        console.log("failed");
+    else if(score <= 39){
+        console.log("Failed");
                                     }
     else{
         console.log("sorry didn't take the test")
